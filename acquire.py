@@ -1,6 +1,6 @@
 import pandas as pd
 import seaborn as sns
-import env
+import env.py
 
 # Aquire.py Exercises/Function Setup
 
@@ -18,6 +18,7 @@ def get_titanic_data():
 
     return df
 
-get_titanic_data
+get_titanic_data()
 
 # Exercise 2 -- get_iris_data
+
