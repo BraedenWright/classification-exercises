@@ -1,6 +1,7 @@
 import pandas as pd
 import seaborn as sns
 import env
+import os
 
 # Aquire.py Exercises/Function Setup
 
