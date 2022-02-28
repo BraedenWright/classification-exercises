@@ -5,7 +5,6 @@ import os
 
 # Aquire.py Exercises/Function Setup
 
-url = f'mysql+pymysql://{env.user}:{env.password}@{env.host}/{database}'
 
 # Exercise 1 -- get_titanic_data
 
@@ -26,7 +25,7 @@ def get_titanic_data():
 
     return df
 
-
+get_titanic_data()
 
 # Exercise 2 -- get_iris_data
 
